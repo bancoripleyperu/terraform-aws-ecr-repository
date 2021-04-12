@@ -2,7 +2,7 @@
 
 ```hcl
 module "this" {
-  source  = "bancoripleyperu/cloudfront-distribution/aws"
+  source  = "bancoripleyperu/ecr-repository/aws"
   version = "0.0.1"
 
   name         = "myRepo"
